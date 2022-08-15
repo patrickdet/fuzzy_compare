@@ -11,7 +11,7 @@ defmodule FuzzyCompare.Preprocessor do
   alias FuzzyCompare.Preprocessed
 
   # Replaces all punctuation
-  @regex ~r/[\p{P}\p{S}]/
+  @regex ~r/[\p{P}\p{S}]/u
 
   @spec process(binary(), binary()) :: {Preprocessed.t(), Preprocessed.t()}
   def process(left, right) when is_binary(left) and is_binary(right) do
