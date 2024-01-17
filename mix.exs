@@ -6,8 +6,8 @@ defmodule FuzzyCompare.MixProject do
   def project do
     [
       app: :fuzzy_compare,
-      version: "1.0.0",
-      elixir: "~> 1.7",
+      version: "1.1.0",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: "A fuzzy string comparison library for Elixir",
@@ -34,8 +34,8 @@ defmodule FuzzyCompare.MixProject do
 
   defp deps do
     [
-      {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:credo, "~> 0.10.0", only: [:dev, :test], runtime: false}
+      {:ex_doc, "~> 0.30", only: :dev, runtime: false},
+      {:credo, "~> 1.7", only: [:dev, :test], runtime: false}
     ]
   end
 end
