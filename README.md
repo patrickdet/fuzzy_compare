@@ -26,10 +26,10 @@ function like the
 function.
 
     iex> String.jaro_distance("Oscar-Claude Monet", "Monet, Claude")
-    0.6032763532763533
+    0.5407763532763533
 
     iex> String.jaro_distance("Oscar-Claude Monet", "Edouard Manet")
-    0.6749287749287749
+    0.624928774928775
 
 This is not an improvement over exact equality.
 
