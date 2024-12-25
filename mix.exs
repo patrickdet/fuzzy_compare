@@ -7,7 +7,7 @@ defmodule FuzzyCompare.MixProject do
     [
       app: :fuzzy_compare,
       version: "1.1.0",
-      elixir: "~> 1.14",
+      elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
       deps: deps(),
       description: "A fuzzy string comparison library for Elixir",
