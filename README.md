@@ -20,7 +20,7 @@ Try to match the following list of painters:
 For a human it is easy to see that some of the names have just been flipped
 and that others are different but similar sounding.
 
-A first approrach could be to compare the strings with a string similarity
+A first approach could be to compare the strings with a string similarity
 function like the
 [Jaro-Winkler](https://en.wikipedia.org/wiki/Jaro%E2%80%93Winkler_distance)
 function.
